@@ -5,11 +5,11 @@
 特别说明：没有用golang直接调用dll，而是调用打印机打印控制程序，​因为不想写（懒），所以直接命令行调用  
 不足：电脑端暂时选择本地图片，无法感知打印机打印进度，因此只能设置提交打印任务后固定时间删除文件（因win32API无此功能，后续可以根据文件大小及类型估算打印时间）
 ## 目录说明
-1. [打印控制驱动（C++编写）](https://github.com/PonyWilliam/printControl/PrintControl)  
-2. [打印机打印程序（C++编写）](https://github.com/PonyWilliam/printControl/FilePrint)  
-3. [打印机服务端（golang编写）](https://github.com/PonyWilliam/printControl/goPrintserver)  
-4. [打印机客户端(微信小程序TS版)](https://github.com/PonyWilliam/printControl/miniprogram)  
-5. [服务端release](https://github.com/PonyWilliam/printControl/release)  
+1. [打印控制驱动（C++编写）](./PrintControl)  
+2. [打印机打印程序（C++编写）](./FilePrint)  
+3. [打印机服务端（golang编写）](./goPrintserver)  
+4. [打印机客户端(微信小程序TS版)](./miniprogram)  
+5. [服务端release](./release)  
 ## 效果一览
 ### 小程序首页：
 ![小程序首页](./image/home.jpg)
