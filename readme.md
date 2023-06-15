@@ -9,7 +9,7 @@
 2. [打印机打印程序（C++编写）](./FilePrint)  
 3. [打印机服务端（golang编写）](./goPrintserver)  
 4. [打印机客户端(微信小程序TS版)](./miniprogram)  
-5. [服务端release](./release)  
+5. [服务端release](./Release)  
 ## 效果一览
 ### 小程序首页：
 ![小程序首页](./image/home.jpg)
