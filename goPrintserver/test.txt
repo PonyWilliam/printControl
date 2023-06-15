@@ -1,0 +1,24 @@
+package main
+
+import (
+	"fmt"
+	"os/exec"
+
+	"golang.org/x/text/encoding/simplifiedchinese"
+)
+
+func main() {
+	cmd := exec.Command("d:\\files\\printControl.exe", "d:\\files\\Wh0mmAiZz4gr03422940ba52b26c5197020baa1eca45.xls", "1")
+	out, err := cmd.CombinedOutput()
+	if err != nil {
+		fmt.Println(err)
+		return
+	}
+
+		output, err := simplifiedchinese.GB18030.NewDecoder().String(string(out)) //转换字符集，解决UTF-8乱码
+		if err != nil {
+			fmt.Println(err)
+		}
+		fmt.Println(output)
+	}
+package server

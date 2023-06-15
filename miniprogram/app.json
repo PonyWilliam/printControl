@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/success/success"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "杨村甸财政所自助打印",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "supportedMaterials": [
+    {
+      "materialType": "text/html",
+      "name": "用${nickname}打印",
+      "desc": "可以进行打印服务",
+      "path": "pages/index/index"
+    },
+    {
+      "materialType": "text/plain",
+      "name": "用${nickname}打印",
+      "desc": "可以进行打印服务",
+      "path": "pages/index/index"
+    },
+    {
+      "materialType": "image/*",
+      "name": "用${nickname}打印",
+      "desc": "可以进行打印服务",
+      "path": "pages/index/index"
+    },
+    {
+      "materialType": "video/*",
+      "name": "用${nickname}打印",
+      "desc": "可以进行打印服务",
+      "path": "pages/index/index"
+    },
+    {
+      "materialType": "application/*",
+      "name": "用${nickname}打印",
+      "desc": "可以进行打印服务",
+      "path": "pages/index/index"
+    }
+  ]
+}

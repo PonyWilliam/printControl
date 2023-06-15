@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<view class="container">
+    <view class="title">
+      <text style="display: block;">点击下方按钮选择需要打印文件</text>
+    </view>
+    <view class="normal">
+      <!-- 基础功能制作 -->
+      <button type="primary" bindtap="openFileClick">从本地打开文件(仅支持图片)</button>
+      <button type="default" bindtap="chooseFileFromChat">选择聊天文件</button>
+    </view>
+
+    <view class="show" wx:if="{{show}}">
+      <text>当前选择文件:{{file.name}}</text>
+      <view class="print">打印份数:<input  type="number" placeholder="请输入打印份数" model:value="{{num}}"/></view>
+      <button type="primary" bindtap="startPrint">开始打印</button>
+    </view>
+</view>
